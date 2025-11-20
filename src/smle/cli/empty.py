@@ -21,8 +21,8 @@ logger:
 
 # Weights & Biases configuration
 # wandb:
-#   key: [your_wandb_key]
-#   entity: [your_wandb_account]
+#   key: your_wandb_key
+#   entity: your_wandb_account
 """
 
 SCRIPT_TEMPLATE = """\
