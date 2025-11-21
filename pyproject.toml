@@ -4,14 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "smle"
-version = "0.0.1.dev8"
-description = "Simple Machine Learning Enviroment - a tiny utilities framework for ML/DL."
+version = "0.0.1.dev9"
+description = "Simple Machine Learning Enviroment"
 
 authors = [
   { name="Alessio Russo", email="alessio.russo.ar98@gmail.com" },
 ]
 
-readme = "README.rst"
+readme = "README.md"
+content-type = "text/markdown"
 
 classifiers = [
   "Development Status :: 3 - Alpha",
@@ -38,6 +39,8 @@ dependencies = [
   "colorama>=0.4.6"
 ]
 
+requires-python = ">=3.11"
+
 [project.optional-dependencies]
 torch = [
   "torch>=2.9.1",
@@ -51,5 +54,7 @@ where = ["src"]
 smle = "smle.cli:main"
 
 [project.urls]
-Homepage = "https://smle.netlify.app/"
-
+"Homepage" = "https://smle.readthedocs.io"
+"Documentation" = "https://smle.readthedocs.io"
+"Source Code" = "https://github.com/blkdmr/smle"
+"Bug Tracker" = "https://github.com/blkdmr/smle/issues"
