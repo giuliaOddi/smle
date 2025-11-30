@@ -10,7 +10,7 @@ class Discord(Service):
         """
         super().__init__()
 
-        self._discord_webhook_url = self._keystore.get_key("DISCORD_SECRET")
+        self._discord_webhook_url = self._keystore.get_key("DISCORD_WEBHOOK_URL")
 
     def send_notification(self, message: str) -> None:
         """Send notification to Discord channel.
